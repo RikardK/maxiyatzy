@@ -177,7 +177,7 @@ static NSString *const qmd = @"questionMarkDice.png";
     
     [self.scoreSheetScrollView setContentSize:CGSizeMake(239, 960)];
     
-    scoreSheetHeaderImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 25, 239, 30)];
+    scoreSheetHeaderImage = [[UIImageView alloc] initWithFrame:CGRectMake(8, 25, 239, 30)];
     scoreSheetHeaderImage.image = [UIImage imageNamed:@"scoreSheetHeader.png"];
     scoreSheetHeaderImage.contentMode = UIViewContentModeScaleToFill;
     [self.view addSubview:scoreSheetHeaderImage];
@@ -389,7 +389,7 @@ static NSString *const qmd = @"questionMarkDice.png";
     [totalScore setText:@"0"];
     [totalScore setTextColor:[UIColor blackColor]];
     
-    restart = [[UIButton alloc] initWithFrame:CGRectMake(80, 925, 100, 40)];
+    restart = [[UIButton alloc] initWithFrame:CGRectMake(70, 925, 100, 40)];
     [restart setTitle:@"RESTART" forState:UIControlStateNormal];
     restart.titleLabel.font = [UIFont fontWithName:@"copperplate" size:18.0];
     [restart setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
@@ -471,6 +471,7 @@ static NSString *const qmd = @"questionMarkDice.png";
     
     for (int i=0; i<6; i++) {
         UIImageView *currentImageView = [dicesImageViewArray objectAtIndex:i];
+        currentImageView.alpha = 1;
         currentImageView.image = [UIImage imageNamed:qmd];
     }
     
@@ -622,9 +623,11 @@ static NSString *const qmd = @"questionMarkDice.png";
             if (button.selected == NO) {
                 button.selected = YES;
                 diceImageView.image = [[thrownDices objectAtIndex:i] valueForKey:@"diceChosenImage"];
+                diceImageView.alpha = 0.7;
             } else {
                 button.selected = NO;
                 diceImageView.image = [[thrownDices objectAtIndex:i] valueForKey:@"diceImage"];
+                diceImageView.alpha = 1;
             }
         }
     }
@@ -748,7 +751,7 @@ static NSString *const qmd = @"questionMarkDice.png";
         lowerSectionScore.text = [NSString stringWithFormat:@"%d", scoreOfLowerSection];
     }
     
-    // Restart game when done 20
+    // Restart game when done? 20
     if ([arrayOfButtonsAlreadyUsed count] == 20) {
         saveScoreOrNewGame = [[UIAlertView alloc] initWithTitle:@"Save Score"
                                                         message:[NSString stringWithFormat:@"Would you like to save your score, %d?", [totalScore.text intValue]]
