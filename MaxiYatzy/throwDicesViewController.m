@@ -748,8 +748,8 @@ static NSString *const qmd = @"questionMarkDice.png";
         lowerSectionScore.text = [NSString stringWithFormat:@"%d", scoreOfLowerSection];
     }
     
-    // Restart game when done? 20
-    if ([arrayOfButtonsAlreadyUsed count] == 1) {
+    // Restart game when done 20
+    if ([arrayOfButtonsAlreadyUsed count] == 20) {
         saveScoreOrNewGame = [[UIAlertView alloc] initWithTitle:@"Save Score"
                                                         message:[NSString stringWithFormat:@"Would you like to save your score, %d?", [totalScore.text intValue]]
                                                        delegate:self
@@ -770,7 +770,7 @@ static NSString *const qmd = @"questionMarkDice.png";
     [self disableAllButtons];
     [self resetThrowDicesView];
     
-    if ([arrayOfButtonsAlreadyUsed count] == 1) {
+    if ([arrayOfButtonsAlreadyUsed count] == 20) {
         saveScoreOrNewGame = [[UIAlertView alloc] initWithTitle:@"Save Score"
                                                         message:[NSString stringWithFormat:@"Would you like to save your score, %d?", [totalScore.text intValue]]
                                                        delegate:self
