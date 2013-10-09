@@ -15,6 +15,7 @@
 @implementation HighScorePlayerStorage
 {
     NSMutableDictionary *playerStorage;
+    NSString *path;
 }
 
 -(id)init
@@ -48,6 +49,15 @@
     return playerStorage[name];
 }
 
+-(void)deleteData
+{
+    NSFileManager *fm = [NSFileManager defaultManager];
+    BOOL fileExist = [fm fileExistsAtPath:path];
+    if (fileExist == YES) {
+        [fm removeItemAtPath:path error:nil];
+    }
+}
+
 -(void)persist:(NSNotification *)notification
 {
     [NSKeyedArchiver archiveRootObject:playerStorage toFile:[self playerStoragePath]];
@@ -62,7 +72,8 @@
 -(NSString *)playerStoragePath
 {
     NSString *directory = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES)[0];
-    return [directory stringByAppendingString:@"player.data"];
+    path = [directory stringByAppendingString:@"player.data"];
+    return path;
 }
 
 -(void)dealloc

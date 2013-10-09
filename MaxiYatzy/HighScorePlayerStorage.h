@@ -12,6 +12,7 @@
 @interface HighScorePlayerStorage : NSObject
 
 -(void)savePlayer:(HighScorePlayer *)player;
+-(void)deleteData;
 -(HighScorePlayer *)getPlayerWithName:(NSString *)playerName;
 -(NSString *)playerStoragePath;
 -(BOOL)persist;

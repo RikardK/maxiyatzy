@@ -23,6 +23,7 @@
     NSString *totalScoreString;
     NSMutableArray *documentIds;
     HighScorePlayerStorage *playerStorage;
+    HighScorePlayer *player;
     DBConnectionController *DBConnection;
     UIAlertView *connectionFailureAlert;
 }
@@ -77,15 +78,16 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    NSDictionary *test = [[NSDictionary alloc] init];
+    NSDictionary *dictionary = [[NSDictionary alloc] init];
     NSString *path = [playerStorage playerStoragePath];
     
     if ([highScoreDataArray count] == 0) {
         [self performSelectorOnMainThread:@selector(startAnimating) withObject:nil waitUntilDone:NO];
     }
     
-    test = [NSKeyedUnarchiver unarchiveObjectWithFile:path];
-    HighScorePlayer *player = [test objectForKey:playerName];
+    dictionary = [NSKeyedUnarchiver unarchiveObjectWithFile:path];
+    player = [dictionary objectForKey:playerName];
+    
     
     NSData *imageData = UIImageJPEGRepresentation(player.image, 0.1);
     NSString *imageString = [imageData base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
@@ -108,7 +110,7 @@
 
 -(void)viewWillDisappear:(BOOL)animated
 {
-    playerName = @"";
+    [playerStorage deleteData];
 }
 
 
