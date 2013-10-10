@@ -12,7 +12,6 @@
 #import "HighScorePlayer.h"
 #import "HighScorePlayerStorage.h"
 #import "DBConnectionController.h"
-#import "CircleImage.h"
 #import "GlobalVariables.h"
 #import <QuartzCore/QuartzCore.h>
 
