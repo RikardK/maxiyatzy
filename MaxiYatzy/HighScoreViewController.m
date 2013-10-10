@@ -106,12 +106,12 @@
             }
         }];
     }
+    playerName = @"";
 }
 
 -(void)viewWillDisappear:(BOOL)animated
 {
     [playerStorage deleteData];
-    playerName = @"";
 }
 
 
