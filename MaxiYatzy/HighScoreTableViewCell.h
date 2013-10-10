@@ -15,4 +15,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *playerScore;
 @property (weak, nonatomic) IBOutlet UIImageView *playerImage;
 
+
 @end

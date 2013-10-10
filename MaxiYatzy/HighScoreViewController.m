@@ -12,8 +12,9 @@
 #import "HighScorePlayer.h"
 #import "HighScorePlayerStorage.h"
 #import "DBConnectionController.h"
-
+#import "CircleImage.h"
 #import "GlobalVariables.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface HighScoreViewController () <UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate>
 {
@@ -111,6 +112,7 @@
 -(void)viewWillDisappear:(BOOL)animated
 {
     [playerStorage deleteData];
+    playerName = @"";
 }
 
 
@@ -206,13 +208,17 @@
     HighScorePlayer *highScorePlayer = [[HighScorePlayer alloc] initWithPlayerName:[[highScoreDataArraySorted objectAtIndex:indexPath.row] objectForKey:@"name"] score:[[highScoreDataArraySorted objectAtIndex:indexPath.row] objectForKey:@"score"] image:[[highScoreDataArraySorted objectAtIndex:indexPath.row] objectForKey:@"image"]];
     
     NSData *imageDataFromBase64String = [[NSData alloc] initWithBase64EncodedString:[[highScoreDataArraySorted objectAtIndex:indexPath.row] objectForKey:@"image"] options:NSDataBase64DecodingIgnoreUnknownCharacters];
-    UIImage *playerImage = [UIImage imageWithData:imageDataFromBase64String];
-    
+    UIImage *img = [UIImage imageWithData:imageDataFromBase64String];
     
     highScoreCell.position.text = [NSString stringWithFormat:@"%d.", [indexPath row] + 1];
     highScoreCell.playerName.text = highScorePlayer.name;
     highScoreCell.playerScore.text = [NSString stringWithFormat: @"%@", highScorePlayer.score];
-    highScoreCell.playerImage.image = playerImage;
+    highScoreCell.playerImage.layer.cornerRadius = 25.0;
+    highScoreCell.playerImage.layer.masksToBounds = YES;
+    highScoreCell.playerImage.layer.borderColor = [UIColor blackColor].CGColor;
+    highScoreCell.playerImage.layer.borderWidth = 0.4;
+    highScoreCell.playerImage.image = img;
+    
     highScoreCell.backgroundColor = [UIColor colorWithRed:84.0 green:143.0 blue:239.0 alpha:0.0];
     highScoreCell.selectionStyle = UITableViewCellSelectionStyleNone;
     
