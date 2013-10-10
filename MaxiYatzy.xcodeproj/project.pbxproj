@@ -54,6 +54,7 @@
 		A8FE4D461806B80800B10890 /* highScoreHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D451806B80800B10890 /* highScoreHeader.png */; };
 		A8FE4D4C1806BB7000B10890 /* scoreSheetHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D4B1806BB7000B10890 /* scoreSheetHeader.png */; };
 		A8FE4D4E1806BC2500B10890 /* saveScoreHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D4D1806BC2500B10890 /* saveScoreHeader.png */; };
+		A8FE4D531806DE1600B10890 /* throwDicesTabBarImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D521806DE1600B10890 /* throwDicesTabBarImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		A8FE4D451806B80800B10890 /* highScoreHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highScoreHeader.png; path = images/highScoreHeader.png; sourceTree = "<group>"; };
 		A8FE4D4B1806BB7000B10890 /* scoreSheetHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreSheetHeader.png; path = images/scoreSheetHeader.png; sourceTree = "<group>"; };
 		A8FE4D4D1806BC2500B10890 /* saveScoreHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveScoreHeader.png; path = images/saveScoreHeader.png; sourceTree = "<group>"; };
+		A8FE4D521806DE1600B10890 /* throwDicesTabBarImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = throwDicesTabBarImage.png; path = images/throwDicesTabBarImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				A8FE4D4D1806BC2500B10890 /* saveScoreHeader.png */,
 				8F418B6817A657D8000A87F3 /* MaxiYatzyAppIconTest.png */,
 				8F075FB217A554090026666B /* launchImage.png */,
+				A8FE4D521806DE1600B10890 /* throwDicesTabBarImage.png */,
 				A8E6A44B17A92CE6001DCB98 /* highScoreTabItemImage.png */,
 				A85AC5BE17A6CB190078EBC8 /* dice1.png */,
 				A85AC5BF17A6CB190078EBC8 /* dice1chosen.png */,
@@ -391,6 +394,7 @@
 				A8E6A44C17A92CE6001DCB98 /* highScoreTabItemImage.png in Resources */,
 				A8E6A44A17A92872001DCB98 /* HighScoreViewController.xib in Resources */,
 				A85AC5B717A6CB130078EBC8 /* dice3chosen.png in Resources */,
+				A8FE4D531806DE1600B10890 /* throwDicesTabBarImage.png in Resources */,
 				8F99578A179D7B2900A9FD1C /* InfoPlist.strings in Resources */,
 				A803C5F517DBBCE1009B76E5 /* questionMarkDice.png in Resources */,
 				A8FE4D461806B80800B10890 /* highScoreHeader.png in Resources */,
