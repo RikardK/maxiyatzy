@@ -44,7 +44,6 @@
 		A85AC5C017A6CB190078EBC8 /* dice1.png in Resources */ = {isa = PBXBuildFile; fileRef = A85AC5BE17A6CB190078EBC8 /* dice1.png */; };
 		A85AC5C117A6CB190078EBC8 /* dice1chosen.png in Resources */ = {isa = PBXBuildFile; fileRef = A85AC5BF17A6CB190078EBC8 /* dice1chosen.png */; };
 		A869886317D8C9AE00555633 /* ScoreSheetBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A869886217D8C9AE00555633 /* ScoreSheetBackgroundImage.png */; };
-		A869886517D8CA7D00555633 /* scoreSheetHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A869886417D8CA7D00555633 /* scoreSheetHeader.png */; };
 		A869886917D9FF2F00555633 /* throwDicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A869886717D9FF2F00555633 /* throwDicesViewController.m */; };
 		A869886A17D9FF2F00555633 /* throwDicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A869886817D9FF2F00555633 /* throwDicesViewController.xib */; };
 		A8B012C5180487CD0051DF26 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B012C4180487CD0051DF26 /* CameraViewController.m */; };
@@ -55,6 +54,9 @@
 		A8F21BD61804020D00EDCFA7 /* saveHighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F21BD51804020D00EDCFA7 /* saveHighScoreViewController.xib */; };
 		A8F21BE01804069B00EDCFA7 /* saveScoreBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F21BDF1804069B00EDCFA7 /* saveScoreBackgroundImage.png */; };
 		A8F6C86D17B7B962004C5B8E /* scoreSheetView.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F6C86C17B7B962004C5B8E /* scoreSheetView.png */; };
+		A8FE4D461806B80800B10890 /* highScoreHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D451806B80800B10890 /* highScoreHeader.png */; };
+		A8FE4D4C1806BB7000B10890 /* scoreSheetHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D4B1806BB7000B10890 /* scoreSheetHeader.png */; };
+		A8FE4D4E1806BC2500B10890 /* saveScoreHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D4D1806BC2500B10890 /* saveScoreHeader.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,7 +117,6 @@
 		A85AC5BE17A6CB190078EBC8 /* dice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice1.png; path = images/dice1.png; sourceTree = "<group>"; };
 		A85AC5BF17A6CB190078EBC8 /* dice1chosen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice1chosen.png; path = images/dice1chosen.png; sourceTree = "<group>"; };
 		A869886217D8C9AE00555633 /* ScoreSheetBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ScoreSheetBackgroundImage.png; path = images/ScoreSheetBackgroundImage.png; sourceTree = "<group>"; };
-		A869886417D8CA7D00555633 /* scoreSheetHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreSheetHeader.png; path = images/scoreSheetHeader.png; sourceTree = "<group>"; };
 		A869886617D9FF2F00555633 /* throwDicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = throwDicesViewController.h; sourceTree = "<group>"; };
 		A869886717D9FF2F00555633 /* throwDicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = throwDicesViewController.m; sourceTree = "<group>"; };
 		A869886817D9FF2F00555633 /* throwDicesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = throwDicesViewController.xib; sourceTree = "<group>"; };
@@ -130,6 +131,9 @@
 		A8F21BD51804020D00EDCFA7 /* saveHighScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = saveHighScoreViewController.xib; sourceTree = "<group>"; };
 		A8F21BDF1804069B00EDCFA7 /* saveScoreBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveScoreBackgroundImage.png; path = images/saveScoreBackgroundImage.png; sourceTree = "<group>"; };
 		A8F6C86C17B7B962004C5B8E /* scoreSheetView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreSheetView.png; path = images/scoreSheetView.png; sourceTree = "<group>"; };
+		A8FE4D451806B80800B10890 /* highScoreHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highScoreHeader.png; path = images/highScoreHeader.png; sourceTree = "<group>"; };
+		A8FE4D4B1806BB7000B10890 /* scoreSheetHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreSheetHeader.png; path = images/scoreSheetHeader.png; sourceTree = "<group>"; };
+		A8FE4D4D1806BC2500B10890 /* saveScoreHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveScoreHeader.png; path = images/saveScoreHeader.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,8 +237,10 @@
 		8F9957B7179D7C4200A9FD1C /* images */ = {
 			isa = PBXGroup;
 			children = (
-				A869886417D8CA7D00555633 /* scoreSheetHeader.png */,
+				A8FE4D451806B80800B10890 /* highScoreHeader.png */,
+				A8FE4D4B1806BB7000B10890 /* scoreSheetHeader.png */,
 				A8F21BDF1804069B00EDCFA7 /* saveScoreBackgroundImage.png */,
+				A8FE4D4D1806BC2500B10890 /* saveScoreHeader.png */,
 				A8F6C86C17B7B962004C5B8E /* scoreSheetView.png */,
 				8F418B6817A657D8000A87F3 /* MaxiYatzyAppIconTest.png */,
 				8F075FB217A554090026666B /* launchImage.png */,
@@ -398,12 +404,14 @@
 				A85AC5B717A6CB130078EBC8 /* dice3chosen.png in Resources */,
 				8F99578A179D7B2900A9FD1C /* InfoPlist.strings in Resources */,
 				A803C5F517DBBCE1009B76E5 /* questionMarkDice.png in Resources */,
+				A8FE4D461806B80800B10890 /* highScoreHeader.png in Resources */,
+				A8FE4D4E1806BC2500B10890 /* saveScoreHeader.png in Resources */,
 				A85AC5C017A6CB190078EBC8 /* dice1.png in Resources */,
 				A85AC5BC17A6CB130078EBC8 /* dice6.png in Resources */,
+				A8FE4D4C1806BB7000B10890 /* scoreSheetHeader.png in Resources */,
 				A85AC5B617A6CB130078EBC8 /* dice3.png in Resources */,
 				A85AC5B517A6CB130078EBC8 /* dice2chosen.png in Resources */,
 				A85AC5B917A6CB130078EBC8 /* dice4chosen.png in Resources */,
-				A869886517D8CA7D00555633 /* scoreSheetHeader.png in Resources */,
 				A8F21BD61804020D00EDCFA7 /* saveHighScoreViewController.xib in Resources */,
 				A84F860817BA3D48009ADFD7 /* HighScoreTableViewCell.xib in Resources */,
 				A85AC5BB17A6CB130078EBC8 /* dice5chosen.png in Resources */,

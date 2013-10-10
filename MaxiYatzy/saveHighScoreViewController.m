@@ -47,7 +47,7 @@
     [self.enterPlayerNameField setDelegate:self];
     [self.playerImage setImage:[UIImage imageNamed:@"noImageAvailable.png"]];
     
-    self.backgroundImage.image = [UIImage imageNamed:@"saveScoreBackgroundImage.png"];
+    self.backgroundImage.image = [UIImage imageNamed:@"saveScoreHeader.png"];
     
     cvc = [[CameraViewController alloc] init];
     cvc.cameraDelegate = self;

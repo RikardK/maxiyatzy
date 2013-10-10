@@ -58,7 +58,7 @@
     
     UINib *nib = [UINib nibWithNibName:@"HighScoreTableViewCell" bundle:nil];
     
-    self.backgroundImage.image = [UIImage imageNamed:@"highScoreBackgroundImage.png"];
+    self.backgroundImage.image = [UIImage imageNamed:@"highScoreHeader.png"];
     self.backgroundImage.contentMode = UIViewContentModeScaleToFill;
     self.highScoreTableView.backgroundColor = [UIColor colorWithRed:84.0 green:143.0 blue:239.0 alpha:0.0];
     
