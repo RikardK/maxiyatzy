@@ -25,7 +25,6 @@
 		A8012E3217BB534B00337EC1 /* Dices.m in Sources */ = {isa = PBXBuildFile; fileRef = A8012E3117BB534B00337EC1 /* Dices.m */; };
 		A803C11817B517E100223640 /* noImageAvailable.png in Resources */ = {isa = PBXBuildFile; fileRef = A803C11717B517E100223640 /* noImageAvailable.png */; };
 		A803C5F517DBBCE1009B76E5 /* questionMarkDice.png in Resources */ = {isa = PBXBuildFile; fileRef = A803C5F417DBBCE1009B76E5 /* questionMarkDice.png */; };
-		A806E0EA17D2850D0078496D /* highScoreBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A806E0E917D2850D0078496D /* highScoreBackgroundImage.png */; };
 		A806E0EF17D3315E0078496D /* DBConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A806E0EE17D3315E0078496D /* DBConnectionController.m */; };
 		A828833F17BA88CA00256BDC /* HighScorePlayerStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A828833E17BA88CA00256BDC /* HighScorePlayerStorage.m */; };
 		A84F860617BA3D15009ADFD7 /* HighScoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F860517BA3D15009ADFD7 /* HighScoreTableViewCell.m */; };
@@ -52,8 +51,6 @@
 		A8E6A44A17A92872001DCB98 /* HighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E6A44817A92872001DCB98 /* HighScoreViewController.xib */; };
 		A8E6A44C17A92CE6001DCB98 /* highScoreTabItemImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6A44B17A92CE6001DCB98 /* highScoreTabItemImage.png */; };
 		A8F21BD61804020D00EDCFA7 /* saveHighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F21BD51804020D00EDCFA7 /* saveHighScoreViewController.xib */; };
-		A8F21BE01804069B00EDCFA7 /* saveScoreBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F21BDF1804069B00EDCFA7 /* saveScoreBackgroundImage.png */; };
-		A8F6C86D17B7B962004C5B8E /* scoreSheetView.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F6C86C17B7B962004C5B8E /* scoreSheetView.png */; };
 		A8FE4D461806B80800B10890 /* highScoreHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D451806B80800B10890 /* highScoreHeader.png */; };
 		A8FE4D4C1806BB7000B10890 /* scoreSheetHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D4B1806BB7000B10890 /* scoreSheetHeader.png */; };
 		A8FE4D4E1806BC2500B10890 /* saveScoreHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE4D4D1806BC2500B10890 /* saveScoreHeader.png */; };
@@ -94,7 +91,6 @@
 		A8012E3117BB534B00337EC1 /* Dices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dices.m; sourceTree = "<group>"; };
 		A803C11717B517E100223640 /* noImageAvailable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noImageAvailable.png; path = images/noImageAvailable.png; sourceTree = "<group>"; };
 		A803C5F417DBBCE1009B76E5 /* questionMarkDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = questionMarkDice.png; path = images/questionMarkDice.png; sourceTree = "<group>"; };
-		A806E0E917D2850D0078496D /* highScoreBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highScoreBackgroundImage.png; path = images/highScoreBackgroundImage.png; sourceTree = "<group>"; };
 		A806E0ED17D3315E0078496D /* DBConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConnectionController.h; sourceTree = "<group>"; };
 		A806E0EE17D3315E0078496D /* DBConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConnectionController.m; sourceTree = "<group>"; };
 		A828833D17BA88CA00256BDC /* HighScorePlayerStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScorePlayerStorage.h; sourceTree = "<group>"; };
@@ -129,8 +125,6 @@
 		A8E6A44817A92872001DCB98 /* HighScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoreViewController.xib; sourceTree = "<group>"; };
 		A8E6A44B17A92CE6001DCB98 /* highScoreTabItemImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highScoreTabItemImage.png; path = images/highScoreTabItemImage.png; sourceTree = "<group>"; };
 		A8F21BD51804020D00EDCFA7 /* saveHighScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = saveHighScoreViewController.xib; sourceTree = "<group>"; };
-		A8F21BDF1804069B00EDCFA7 /* saveScoreBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveScoreBackgroundImage.png; path = images/saveScoreBackgroundImage.png; sourceTree = "<group>"; };
-		A8F6C86C17B7B962004C5B8E /* scoreSheetView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreSheetView.png; path = images/scoreSheetView.png; sourceTree = "<group>"; };
 		A8FE4D451806B80800B10890 /* highScoreHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highScoreHeader.png; path = images/highScoreHeader.png; sourceTree = "<group>"; };
 		A8FE4D4B1806BB7000B10890 /* scoreSheetHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scoreSheetHeader.png; path = images/scoreSheetHeader.png; sourceTree = "<group>"; };
 		A8FE4D4D1806BC2500B10890 /* saveScoreHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveScoreHeader.png; path = images/saveScoreHeader.png; sourceTree = "<group>"; };
@@ -239,9 +233,7 @@
 			children = (
 				A8FE4D451806B80800B10890 /* highScoreHeader.png */,
 				A8FE4D4B1806BB7000B10890 /* scoreSheetHeader.png */,
-				A8F21BDF1804069B00EDCFA7 /* saveScoreBackgroundImage.png */,
 				A8FE4D4D1806BC2500B10890 /* saveScoreHeader.png */,
-				A8F6C86C17B7B962004C5B8E /* scoreSheetView.png */,
 				8F418B6817A657D8000A87F3 /* MaxiYatzyAppIconTest.png */,
 				8F075FB217A554090026666B /* launchImage.png */,
 				A8E6A44B17A92CE6001DCB98 /* highScoreTabItemImage.png */,
@@ -260,7 +252,6 @@
 				A85AC5B217A6CB130078EBC8 /* dice6.png */,
 				A85AC5B317A6CB130078EBC8 /* dice6chosen.png */,
 				A803C11717B517E100223640 /* noImageAvailable.png */,
-				A806E0E917D2850D0078496D /* highScoreBackgroundImage.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -391,14 +382,12 @@
 			files = (
 				A85AC5C117A6CB190078EBC8 /* dice1chosen.png in Resources */,
 				A85AC5B817A6CB130078EBC8 /* dice4.png in Resources */,
-				A8F6C86D17B7B962004C5B8E /* scoreSheetView.png in Resources */,
 				A869886317D8C9AE00555633 /* ScoreSheetBackgroundImage.png in Resources */,
 				A85AC5BD17A6CB130078EBC8 /* dice6chosen.png in Resources */,
 				A85AC5BA17A6CB130078EBC8 /* dice5.png in Resources */,
 				A803C11817B517E100223640 /* noImageAvailable.png in Resources */,
 				A869886A17D9FF2F00555633 /* throwDicesViewController.xib in Resources */,
 				8F075FB317A554090026666B /* launchImage.png in Resources */,
-				A806E0EA17D2850D0078496D /* highScoreBackgroundImage.png in Resources */,
 				A8E6A44C17A92CE6001DCB98 /* highScoreTabItemImage.png in Resources */,
 				A8E6A44A17A92872001DCB98 /* HighScoreViewController.xib in Resources */,
 				A85AC5B717A6CB130078EBC8 /* dice3chosen.png in Resources */,
@@ -416,7 +405,6 @@
 				A84F860817BA3D48009ADFD7 /* HighScoreTableViewCell.xib in Resources */,
 				A85AC5BB17A6CB130078EBC8 /* dice5chosen.png in Resources */,
 				8F418B6917A657D8000A87F3 /* MaxiYatzyAppIconTest.png in Resources */,
-				A8F21BE01804069B00EDCFA7 /* saveScoreBackgroundImage.png in Resources */,
 				A85AC5B417A6CB130078EBC8 /* dice2.png in Resources */,
 				8F995792179D7B2900A9FD1C /* Images.xcassets in Resources */,
 			);
